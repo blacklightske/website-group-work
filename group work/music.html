@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Faith Music</title>
+	<style>
+
+		/* Styling the body */
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		/* Styling the background image by
+		giving its url and position */
+		.container {
+			height: 100vh;
+			width: 100%;
+			background-image: url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20210402235143/background.jpg');
+			
+			/* Image used: */
+			background-size: cover;
+			background-position: center;
+			position: relative;
+		}
+
+		/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+    .container {
+      line-height: 150%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #e9e9e9;
+    }
+
+    .header h1 {
+      color: #222222;
+      font-size: 30px;
+      font-family: 'Pacifico', cursive;
+    }
+
+    .header .social a {
+      padding: 0 5px;
+      color: #222222;
+    }
+		.content {
+			width: 100%;
+			position: absolute;
+			top: 45%;
+		}
+
+		/* Styling the left-col by
+		giving margin */
+		.left-col {
+			margin-left: 11%;
+		}
+
+		/* Styling the my sound placed
+		in the left-col */
+		.left-col h1 {
+			font-size: 30px;
+			color: crimson;
+		}
+
+		/* Styling the right-col */
+		.right-col {
+			float: right;
+			margin-right: 10%;
+			margin-top: -5%;
+			display: flex;
+			align-items: center;
+		}
+
+		/* Styling the text in the right-col */
+		.right-col p {
+			font-size: 21px;
+			color: black;
+			font-weight: 650;
+			margin-right: 20px;
+		}
+
+		/* Styling the cursor type
+		of the icon to pointer */
+		#icon {
+			cursor: pointer;
+		}
+
+		/* Dropdown Formating */
+.dropdown {
+    color: black;
+    position: relative;
+    display: inline-block;
+    font-size: 1.3rem
+
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+   
+}
+
+.dropdown-content {
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer {
+      padding: 55px 20px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+      align-self: : 400px;
+    }
+
+	</style>
+</head>
+
+
+
+<body>
+	<div class="container">
+
+			<header class="header">
+      <h1>MUSIC</h1>
+      
+      <!--Navigation Menu-->
+        <nav id="navbar">
+        
+        <ul>
+            <li class="item"><a href="home.html">HOME</a></li>
+            
+            <div class="dropdown">
+                    <span>GENRE</a> </span>
+                    <div class="dropdown-content">
+                      <ul>
+                        <div>
+                          <li><a href="vision.html">GOSPEL</a></li><br>
+                          <li><a href="overview.html">DANCEHALL</a></li><br>
+                          <li><a href="overview.html">ROOTS</a></li><br>
+                        </div>
+                        <div>
+                          <li><a href="overview.html">RUMBA</a></li><br>
+                          <li><a href="overview.html">LINGALA</a></li><br>
+                          <li><a href="overview.html">BENGA</a></li><br>
+                        </div>
+                          <div>
+                          <li><a href="overview.html">BONGO</a></li><br>
+                          <li><a href="overview.html">GENGE</a></li><br>
+                          <li><a href="overview.html">GENGETONE</a></li><br>
+                        </div>
+                    </ul>
+                    </div>
+            </div>
+            <li class="item"><a href="#new-releases">NEW RELEASES</a></li>
+            <li class="item"><a href="#top-novels">ARTISTS</a></li>
+
+        </ul>
+        </nav>
+
+        
+        
+    
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+
+
+	<div class="content">
+		<div class="left-col">
+			<h1>YOUR FAVOURITE<br> SOUNDS IN ONE BASKET</h1>
+		</div>
+
+		<div class="right-col">
+			
+
+<p>Click Here To Listen</p>
+
+
+			<img src="media/play.png" id="icon">
+		</div>
+	</div>
+
+	<audio id="mysound">
+		<source src="media/music.mp3" type="audio/mp3">
+	</audio>
+
+	<script>
+		var mysound = document.getElementById("mysound");
+		var icon = document.getElementById("icon");
+
+		// Creating a function that will change
+		// pause to play and vice-versa
+		icon.onclick = function() {
+			if (mysound.paused) {
+
+				// If paused then play the
+				// music and change the image
+				mysound.play();
+				icon.src =
+"https://media.geeksforgeeks.org/wp-content/uploads/20210402235545/Pause.png";
+			} else {
+
+				// If playing then pause the
+				// music and change the image
+				mysound.pause();
+				icon.src =
+"https://media.geeksforgeeks.org/wp-content/uploads/20210402235520/play.png";
+			}
+		}
+	</script>
+
+	
+</body>
+
+</html>
