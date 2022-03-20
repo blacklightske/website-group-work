@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>ENTERTAINMENT</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- CSS
+  ================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	<!-- Javascript resources
+	================================================== -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/superfish.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>		
+	<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+	<script type="text/javascript" src="js/supersized.shutter.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript">
+	jQuery(function($){		
+		$.supersized({
+	
+			autoplay				:	1,
+			random					:	1,
+			slide_interval          :   5000,
+			transition              :   1, 			
+			transition_speed		:	700,		
+			slide_links				:	'blank',
+			slides 					:  	[			
+												{image : 'background homepage/p.jpg'},
+												{image : 'background homepage/bck4.jpg'},
+												{image : 'background homepage/bck6.jpg'},
+												{image : 'background homepage/bck7.jpg'},												
+												{image : 'background homepage/bck1.jpg'}
+										]			
+		});
+	});    
+	</script>
+	
+    <!-- PrettyPhoto
+	================================================== -->
+	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css">
+	<script src="js/jquery.prettyPhoto.js"></script>
+	
+</head>
+<body>
+		
+<div class="container">
+	<header id="header" class="sixteen columns">
+		<div class="row transparent">
+			<div class="four columns logo alpha">
+				<h1 id="logo"><a href="home.html"><img src="img/flogo.jpg" alt="" /></a></h1>
+			</div>
+			<div class="twelve columns omega">
+								<nav id="navigation">
+					<ul class="nav group">
+						<li>
+							<a href="home.html">HOME </a>
+				
+						</li>
+						<li>
+							<a href="movies.html">MOVIES</a>
+						<li>
+						<li>
+							<a href="Novel.html">NOVEL</a>
+						<li>
+						<li>
+							<a href="muzic.html">MUSIC</a>
+						<li>
+						<li>
+							<a href="blog.html">BLOG</a>
+						<li>
+											
+						<li>
+							<a href="contact.html">CONTACT</a>
+						</li>				
+					</ul>
+				</nav><!-- /navigation -->			</div><!-- /twelve -->
+		</div><!-- /row -->	
+	</header><!-- /header -->
+</div><!-- /container -->
+
+<div id="controls-wrapper" class="load-item">
+	<div id="controls">			
+		<a id="prevslide" class="btn-slider">Previous</a><a id="pauseplay" class="btn-slider">Play</a><a id="nextslide" class="btn-slider">Next</a><a id="hide-slider" class="btn-slider">Hide Slider</a><a id="show-slider" class="btn-slider">Show Slider</a>			
+	</div>
+</div><!-- /controls-wrapper -->
+
+<div id="home-set" class="container">
+	<div class="sixteen columns">
+		<article class="four columns alpha set">
+			<img src="dummy/movie.jpg" alt="" class="scale-with-grid" />
+			<a href="Movies.html">MOVIES</a>
+			<div class="zoom">
+				<a href="dummy/movie.jpg" rel="pp" class="view-set">Check Out Movies</a>
+				<a href="#" class="view-article">View article</a>
+			</div>	
+		</article><!-- /set -->
+		<article class="four columns set">
+			<img src="dummy/novels.jpg" alt="" class="scale-with-grid" />
+			<a href="Novel.html">NOVELS</a>
+			<div class="zoom">
+				<a href="dummy/novels.jpg" rel="pp" class="view-set">View set</a>
+				<a href="#" class="view-article">View article</a>
+			</div>	
+		</article><!-- /set -->
+		<article class="four columns set">
+			<img src="dummy/dummy03.jpg" alt="" class="scale-with-grid" />
+			<a href="Music.html">MUSIC</a>
+			<div class="zoom">
+				<a href="dummy/sl01.jpg" rel="pp" class="view-set">View set</a>
+				<a href="#" class="view-article">View article</a>
+			</div>	
+		</article><!-- /set -->
+		</article><!-- /set -->
+		<article class="four columns omega set">
+			<img src="dummy/dummy04.jpg" alt="" class="scale-with-grid" />
+			<a href="#">games</a>
+			<div class="zoom">
+				<a href="dummy/sl01.jpg" rel="pp" class="view-set">View set</a>
+				<a href="#" class="view-article">View article</a>
+			</div>	
+		</article><!-- /set -->
+	</div><!-- /sixteen columns -->
+</div><!-- /container -->
+
+<b id="t" class="brd"></b>
+<b id="l" class="brd"></b>
+<b id="r" class="brd"></b>
+<b id="b" class="brd"></b>
+
+
+</body>
+</html>
