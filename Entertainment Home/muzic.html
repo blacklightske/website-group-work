@@ -8,7 +8,7 @@
 body
 {
 
-color:whitesmoke;
+color:grey;
 background-image:url("");
 background-size: contain; 
 background-repeat: no-repeat;
@@ -30,11 +30,11 @@ background:transparent;
 }
 h2
 {
-color:red;
+color:silver;
 }
 a
 {
-color:white;
+color:silver;
 font-size:40px;
 text-decoration:none;
 }
@@ -55,12 +55,16 @@ font-size:21px;
 .table2{
 font-family:bold;
 background:transparent;
- width: 80%;
-      margin: 30px 0;
+width: 80%;
+margin: 30px 0;
 }
 h2
 {
 color:red;
+}
+h6{
+  color: silver;
+  text-align: right;
 }
 a
 {
@@ -84,7 +88,7 @@ font-size:21px;
 }
 
 .one{
-  background-color: whitesmoke;
+  background-color: #212121;
   background-image:url("music1.jpg");
 background-size: contain; 
 background-repeat: no-repeat;
@@ -94,35 +98,46 @@ background-size: ;
 }
 
 .two{
-  padding: 21px;
-  background-color: whitesmoke;
-  background-image:url("music6.jpg");
+background-color: #212121;
+background-image:url("");
 background-size: contain; 
 background-repeat: no-repeat;
 background-position: center;
 background-size: ;
 }
 .three{
-  background-color: whitesmoke;
+  background-color: #212121;
    background-image:url("music5.jpg");
 background-size: contain; 
 background-repeat: no-repeat;
 background-position: center;
 background-size: ;
 }
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
 
 </style>
+
 </head>
-<body background-clour="white">
+
+<body background-clour="#212121">
   <div class="one">
-<h2 id="top"><marquee bgcolor="white">This Website Is Made For Music Lovers</marquee></h2>
+<h2 id="top"><marquee bgcolor="#212121">listen to all music in one place </marquee></h2>
+<h5 id="logo"><a href="home.html"><img src="img/flogo.jpg" alt="" /> <br> <b>ORACLE</b></a></h5>
 <h1><center>
 <table border="0" bordercolor="black">
 <tr>
 <td><a href="home.html">HOME &nbsp;&nbsp;&nbsp;&nbsp; </a></td>
-<td><a href="#listen.html">AUDIO &nbsp;&nbsp;&nbsp;</a></td>
+<td><a href="#listen">AUDIO &nbsp;&nbsp;&nbsp;</a></td>
 <td><a href="#contact">CONTACT US &nbsp;&nbsp;&nbsp;</a></td>
-<td><a href="#about">ABOUT US</a></td>
+<td><a href="contact.html">ABOUT US</a></td>
 </tr>
 </table>
 </center></h1>
@@ -165,13 +180,14 @@ background-size: ;
 
 
 <!-- play music area!-->
-<div class="two", id="listen">
+<div class="two"> 
+  
 <center>
-<table class="table2"  border="20" bordercolor="green" >
-<caption><h1> Latest Songs</h1> </caption>
+<table class="table2"  border="20" bordercolor="black" >
+<caption><h1 id="listen"><b> Latest Songs</b></h1> </caption>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\wap.jpg" width=200 height=100px " <h6>song title:WAP <br>artist:city girls ft cardiB</h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\wap.mp3" type="audio/mp3">
@@ -181,7 +197,7 @@ background-size: ;
 <tr>
 
 <tr>
-<td><img src="entertainment Home/music1.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\fall davido.jpg" width=200 height=100px " <h6>song title:Fall <br>artist:Davido</h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\davidofall.mp3" type="audio/mp3">
@@ -191,7 +207,7 @@ background-size: ;
 <tr>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\twerk.jpg" width=200 height=100px " <h6>song title:twerk<br>author:city girls </h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\twerk city girls.mp3" type="audio/mp3">
@@ -201,7 +217,7 @@ background-size: ;
 <tr>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\alie gatie.jpg" " width=200 height=100px " <h6>song title:What If I Told You I Love You<br>author:Alie Gatie </h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\alie gatie what if i told you.mp3" type="audio/mp3">
@@ -211,7 +227,7 @@ background-size: ;
 <tr>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\burna boy eyes on.jpg" width=200 height=100px " <h6>song title:All Eyes On Me<br>author:Burna Boy ft AKA </h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\all eyes on me burnaboy.mp3" type="audio/mp3">
@@ -221,7 +237,7 @@ background-size: ;
 <tr>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\all falls down alanwalker.jpg""width=200 height=100px " <h6>song title:All Falls Down<br>author:Alan Walker</h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\all falls down allanwalker.mp3" type="audio/mp3">
@@ -231,7 +247,7 @@ background-size: ;
 <tr>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\bia whole money.jpg" width=200 height=100px " <h6>song title:Whole Lotta Money<br>author:Bia</h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\bia lotta money.mp3" type="audio/mp3">
@@ -243,7 +259,7 @@ background-size: ;
 <ol>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\davido coolest kid.jpg" width=200 height=100px " <h6>song title:Coolest Kid In Africa<br>author:Davido</h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\coolest kid africa davido.mp3" type="audio/mp3">
@@ -253,7 +269,7 @@ background-size: ;
 <tr>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\hot shower.jpg" width=200 height=100px " <h6>song title:Hot Shower<br>author:Chance The Rapper</h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\hot shower chance the raper.mp3" type="audio/mp3">
@@ -263,7 +279,7 @@ background-size: ;
 <tr>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\mood.jpeg" width=200 height=100px " <h6>song title:Mood<br>author:24Goldin</h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\mood 24goldin.mp3" type="audio/mp3">
@@ -273,7 +289,7 @@ background-size: ;
 <tr>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\meant to be.jpg" width=200 height=100px " <h6>song title:Meant To Be<br>author:Bebe Rehxa ft Florida Georgia</h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\meant to be bebe rehxa.mp3" type="audio/mp3">
@@ -283,7 +299,7 @@ background-size: ;
 <tr>
 
 <tr>
-<td><img src="images/enna_sona.jpg" width=200 height=100px " alt="enna_sona"></td>
+<td><img src="C:\Users\holyk\Desktop\group work\images\music images\the nights.jpeg" width=200 height=100px " <h6>song title:The Nights<br>author:Avicii</h6></td>
 <td>
 <audio controls>
   <source src="C:\Users\holyk\Desktop\group work\Entertainment Home\songs\the nights avicii.mp3" type="audio/mp3">
@@ -330,8 +346,9 @@ background-size: ;
 </center>
 <br><br><br><br>
 <center>
-<h2 id="about">We are Always Be Happy To Be Connected With You.<br/>
-Feel Free To Contact Us.</h2>
+<h2 id="about">We aim at bringing music to yuor fingertips and enable you to <br>
+              acces them anytime at your comfort.The website also allows you to <br>
+              play offline music from your pc.in case of any bugs please contact us</h2><br>
 <a href="#top">Go To Top</a>
 </center>
 </div>
