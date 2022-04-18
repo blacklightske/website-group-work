@@ -19,25 +19,6 @@ The music page  allows user to play songs stored in the laptop(the must specify 
 The blog page has links and a little description of news. 
 
 The contact page contains a live map of the location specified in the code it also has an email section.
-## Features
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
-## Authors
-
-- [@katherinepeterson](https://www.github.com/octokatherine)
-
 
 ## Screenshots
 
