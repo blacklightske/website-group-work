@@ -22,5 +22,13 @@ The contact page contains a live map of the location specified in the code it al
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](group%20screenshots/blog%20page.JPG)
+
+![App Screenshot](group%20screenshots/home%20page.JPG)
+
+![App Screenshot](group%20screenshots/musi%20page.JPG)
+
+![App Screenshot](group%20screenshots/novel%20page.JPG)
+
+![App Screenshot](group%20screenshots/contact%20page.JPG)
 
