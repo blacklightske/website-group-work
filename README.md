@@ -14,21 +14,29 @@ The movies page also contains a static bacground and images of movies ,(the site
 
 The novels page has images of novels it also has a contact us section . 
 
-The music page  allows user to play songs stored in the laptop(the must specify in the code) 
+The music page  allows user to play songs stored in the laptop(the user must specify in the code the location of thwe songs) 
 
-The blog page has links and a little description of news. 
+The blog page has links and a little description of news from other blog websites. 
 
 The contact page contains a live map of the location specified in the code it also has an email section.
 
 ## Screenshots
-
-![App Screenshot](group%20screenshots/blog%20page.JPG)
-
+home page
 ![App Screenshot](group%20screenshots/home%20page.JPG)
 
+blog page
+![App Screenshot](group%20screenshots/blog%20page.JPG)
+
+music page
 ![App Screenshot](group%20screenshots/musi%20page.JPG)
 
+![App Screenshot](group%20screenshots/music%20page2.JPG)
+
+novels page
 ![App Screenshot](group%20screenshots/novel%20page.JPG)
 
-![App Screenshot](group%20screenshots/contact%20page.JPG)
+contact us page
+![App Screenshot](group%20screenshots/contact%20page2.JPG)
+
+![App Screenshot](group%20screenshots/contact%20page2.JPG)
 
